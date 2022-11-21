@@ -1,2 +1,13 @@
-﻿  main.c
+﻿  server.c
+F:\embbeded\Payment Application\Payment Application\Server\server.c(68,68): warning C4047: 'function': 'ST_accountsDB_t *' differs in levels of indirection from 'ST_accountsDB_t **'
+F:\embbeded\Payment Application\Payment Application\Server\server.c(68,52): warning C4024: 'isValidAccount': different types for formal and actual parameter 2
+F:\embbeded\Payment Application\Payment Application\Server\server.c(70,42): warning C4047: 'function': 'ST_accountsDB_t *' differs in levels of indirection from 'ST_accountsDB_t **'
+F:\embbeded\Payment Application\Payment Application\Server\server.c(70,26): warning C4024: 'isBlockedAccount': different types for formal and actual parameter 1
+F:\embbeded\Payment Application\Payment Application\Server\server.c(72,69): warning C4047: 'function': 'ST_accountsDB_t *' differs in levels of indirection from 'ST_accountsDB_t **'
+F:\embbeded\Payment Application\Payment Application\Server\server.c(72,53): warning C4024: 'isAmountAvailable': different types for formal and actual parameter 2
+F:\embbeded\Payment Application\Payment Application\Server\server.c(74,35): warning C4047: 'function': 'ST_transaction_t *' differs in levels of indirection from 'ST_transaction_t **'
+F:\embbeded\Payment Application\Payment Application\Server\server.c(74,25): warning C4024: 'saveTransaction': different types for formal and actual parameter 1
+F:\embbeded\Payment Application\Payment Application\Server\server.c(81,23): warning C4018: '<': signed/unsigned mismatch
+  main.c
+  Generating Code...
   Payment Application.vcxproj -> F:\embbeded\Payment Application\x64\Debug\Payment Application.exe
